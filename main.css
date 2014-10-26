@@ -44,10 +44,15 @@
   background-color: #3a3a3a;
 }
 
+.learn-more .container {
+  font-color: #eff5f6;
+}
+
 .learn-more h3 {
-  font-family: 'Shift', sans-serif;
+  font-family: Calibri;
   font-size: 18px;
   font-weight: bold;
+  font-color: #eff5f6;
 }
 
 .learn-more a {
