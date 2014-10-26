@@ -54,17 +54,17 @@
   color: #00b0ff;
 }
 
-.neighborhoodd-guides {
+.showcase {
     background-color: #3a3a3a;
     border-bottom: 1px solid #dbdbdb;
 }
 
-.neighborhood-guides h2 {
+.showcase h2 {
     color: #3a3a3a;
     font-size: 24px;
 }
 
-.neighborhood-guides p{
+.showcase p{
     font-size: 15px;
     margin-bottom: 13px;
 }
