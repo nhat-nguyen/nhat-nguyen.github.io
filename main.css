@@ -58,6 +58,8 @@
 .showcase {
     background-color: #3a3a3a;
     border-bottom: 1px solid #dbdbdb;
+    position: relative;
+    top: -10px;
 }
 
 .showcase h2 {
