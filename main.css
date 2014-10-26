@@ -59,7 +59,7 @@
     background-color: #3a3a3a;
     border-bottom: 1px solid #dbdbdb;
     position: relative;
-    top: -10px;
+    top: -20px;
 }
 
 .showcase h2 {
@@ -69,7 +69,6 @@
 
 .showcase p{
     font-size: 15px;
-    margin-bottom: 13px;
     color: #eff5f6;
 }
 
