@@ -1,3 +1,4 @@
+.div {vertical-align: top;}
 .nav {
   background-color: #292929;
 }
@@ -17,15 +18,14 @@
 
 .jumbotron {
   background-image:url('https://dl.dropboxusercontent.com/u/12339150/Website%20Resources/FreeAsBird.jpg');
-  height: 300px;
+  height: 330px;
   background-repeat: no-repeat;
   background-size: cover;
+line-height: 0px;
 }
 
 .jumbotron .container {
   position: relative;
-  left: 200px;
-  top: 30px;
 }
 
 .jumbotron h1 {
@@ -40,35 +40,62 @@
   color: #fff;
 }
 
+
 .learn-more {
   background-color: #3a3a3a;
+        position: relative;
+    top: -30px;
 }
 
 .learn-more h3 {
   font-family: Calibri;
   font-size: 20px;
   font-weight: bold;
-  color: #d8e9ee;
 }
 
 .learn-more a {
   color: #77b3c4;
 }
 
+.learn-more p {
+  color: #eff5f6;
+  font-family: Helvetica;
+  font-size: 15px;
+}
+
 .showcase {
     background-color: #3a3a3a;
-    border-bottom: 1px solid #dbdbdb;
     position: relative;
     top: -30px;
 }
 
-.showcase h2 {
-    color: #d8e9ee;
-    font-size: 26px;
+.intro {
+    background-image:url("https://dl.dropboxusercontent.com/u/12339150/website%20resources/Showcase/vitality.jpg");
+    height: 300px;
+      background-repeat: no-repeat;
+  background-size: cover;
+    
 }
 
-.showcase p{
-    font-size: 15px;
-    color: #eff5f6;
+.intro .container {
+    color: #ffffff;
+    position: relative;
+    font-family: Calibri;
+    top: 80px;
+    left: 50px;
 }
 
+.intro h1 {
+    font-size: 60px;
+    font-weight: lighter;
+}
+
+.intro p {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.grid {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
