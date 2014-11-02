@@ -1,63 +1,101 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <link rel="stylesheet" href="bootstrap.css">
-    <link rel="stylesheet" href="main.css">
-  </head>
+<html class="full" lang="en">
+<!-- Make sure the <html> tag is set to the .full CSS class. Change the background image in the full.css file. -->
 
-  <body>
-    <div class="nav">
-      <div class="container">
-        <ul class="pull-left">
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Photography</a></li>
-        </ul>
-        <ul class="pull-right">
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </div>
-    </div>
+<head>
 
-    <div class="jumbotron">
-      <div class="container">
-        <h1>Nhat Nguyen</h1>
-           <p>software lover. passionate photographer</p>
-      </div>
-    </div> 
-    <div class="showcase">
-      <div class="container">
-        <div class="row">
-        
-          <div class="col-md-6">
-            <div class="thumbnail">
-              <a href="project.html"><img src="https://dl.dropboxusercontent.com/u/12339150/Website%20Resources/Projects.jpg" class="img-responsive" alt="Responsive image"></a>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Nhat Nguyen</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/main.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"> <img src="assets/icon.png">Home</a>
             </div>
-          </div>
-          <div class="col-md-6">
-            <div class="thumbnail">
-              <img src="https://dl.dropboxusercontent.com/u/12339150/Website%20Resources/Hobbies.jpg" class="img-responsive" alt="Responsive image">
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="projects.html">Projects</a>
+                    </li>
+                    <li>
+                        <a href="photography.html">Photography</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
             </div>
-          </div>
+            <!-- /.navbar-collapse -->
         </div>
-      </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <h1>Nhat Nguyen</h1>
+                    <p>I'm a Software Engineering student at the University of Waterloo. I have great interest in developing and learning about software.Outside of classes, I usually spend time learning about software development, programming languages and photography.</p>
+                    <p></p>
+                    <p></p>
+                </div>
+            </div>
+        </div>
     </div>
     
-    <div class="learn-more">
-	  <div class="container">
-		<div class="row">
-	      <div class="col-md-6">
-			<h3>1</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			<p><a href="#">Learn more</a></p>
-	      </div>
-		  <div class="col-md-6">
-			<h3>2</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			<p><a href="#">Learn more</a></p>
-		  </div>
-	    </div>
-	  </div>
-	</div>
-  </body>
+    <div class="showcase">
+        <div class="container">
+            <ul>
+                <li><a href="project.html">Projects</a></li>
+                <li><a href="photography.html">Photography</a></li>
+                <li><a href="about.html">More about me</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
 </html>
