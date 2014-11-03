@@ -2,7 +2,6 @@
     .header p {padding-left: 210px !important ; padding-right: 210px !important;}
 }
 
-
 body {
 	margin-top: 40px;
 	margin-bottom: 50px;
@@ -47,7 +46,6 @@ body {
 	color: orange;
 }
 
-
 .full {
 	background: url("../assets/background.jpg") no-repeat center center fixed; 
 	-webkit-background-size: cover;
@@ -72,4 +70,29 @@ body {
     text-align: center;
     font-weight: lighter;
     text-shadow: 0px 0px 10px black;
+}
+
+.showcase {
+    padding-top: 50px;
+}
+
+.showcase a {
+    color: white;
+    text-shadow: 0px 0px 15px black;
+}
+
+.showcase ul {
+    color: transparent;
+    text-align: center;
+}
+
+
+.showcase li {
+    padding: 20px;
+    display: inline;
+}
+
+.showcase .container img {
+    width: 25px;
+    padding-right: 5px;
 }
