@@ -1,0 +1,82 @@
+.full {
+    background: url("../assets/backgrounds/background_4.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.navbar .container .navbar-header a{
+    text-shadow: 0px 0px 5px black;
+}
+
+.navbar .container .navbar-header a:hover{
+    text-shadow: 0px 0px 10px black;
+}
+
+.navbar .container .navbar-collapse a:link{
+    text-shadow: 0px 0px 5px black;
+}
+
+.navbar .container .navbar-collapse a:hover{
+    text-shadow: 0px 0px 10px black;
+}
+
+.header h1 {
+    text-shadow: 0px 0px 5px #008080;
+}
+
+.header p {
+    text-shadow: 0px 0px 5px #008080;
+}
+
+.photos {
+    padding-top: 50px;
+}
+
+.photos p {
+    color: white;
+    text-shadow: 0px 0px 5px #008080;
+    text-align: center;
+}
+
+.photos img {
+    width: 50px;
+    padding-right: 10px;
+}
+
+.photos ul {
+    padding-top: 30px;
+    background: :transparent;
+    text-align: center;
+}
+
+.photos li {
+    padding: 20px;
+    display: inline;
+}
+
+.photos a {
+    color: white;
+    text-shadow: 0px 0px 15px black;
+}
+
+.photos a:hover {
+    text-decoration: none;
+    text-shadow: 0px 0px 15px black;
+
+}
+
+/*This is the part that links to other pages*/
+
+.showcase {
+    position: relative;
+    top: 50px;
+}
+.showcase a {
+    text-shadow: 0px 1px 5px green;
+}
+
+.showcase a:hover{
+    text-shadow: 0px 0px 10px green;
+}

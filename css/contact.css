@@ -1,0 +1,65 @@
+.full {
+    background: url("../assets/backgrounds/background_3.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.navbar .container .navbar-header a{
+    text-shadow: 0px 0px 5px black;
+}
+
+.navbar .container .navbar-header a:hover{
+    text-shadow: 0px 0px 10px black;
+}
+.navbar .container .navbar-collapse a:link{
+    text-shadow: 0px 0px 5px black;
+    color: white;
+}
+.navbar .container .navbar-collapse a:hover{
+    text-shadow: 0px 0px 10px black;
+    color: white;
+}
+
+.header h1{
+    text-shadow: 0px 0px 25px black;
+}
+
+.header p{
+    text-shadow: 0px 0px 25px #008080;
+}
+
+.contact {
+    position: relative;
+    top: 30px;
+}
+
+.contact img {
+    width: 50px;
+    padding-right: 10px;
+}
+
+.contact ul {
+    color: transparent;
+    text-align: center;
+}
+
+.contact li {
+    display: inline;
+}
+
+.contact a {
+    color: white;
+    padding: 20px;
+    text-shadow: 0px 0px 10px #458b74;
+
+}
+
+.contact a:hover {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    text-shadow: 0px 0px 20px black;
+
+}

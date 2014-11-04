@@ -1,0 +1,74 @@
+.full {
+    background: url("../assets/backgrounds/background_2.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.header {
+    position: relative;
+    top: -50px;
+}
+
+.header h1 {
+    text-shadow: 0px 0px 5px #7f5200;
+}
+
+.gallery .thumbnail{
+    background: transparent;
+    border: 0px;
+}
+
+.gallery .btn {
+    position: relative;
+    top: -20px;
+    text-align: center;
+    background: transparent;
+    border-color: white;
+    border-radius: 2px;
+}
+
+.gallery .btn:hover {
+    box-shadow: 0px 0px 10px #db4437;
+}
+
+.gallery a {
+    text-shadow: 0px 0px 10px #36465d;
+    font-weight: light;
+}
+
+.gallery p {
+    color: white;
+    text-shadow: 0px 0px 5px #7f5200;
+    text-align: center;
+}
+
+.gallery h3, h5 {
+    position: relative;
+    top: -60px;
+    text-align: center;
+    text-shadow: 0px 0px 5px #7f5200;
+    color: white;
+}
+
+.gallery h5 {
+    font-weight: lighter;
+}
+
+
+
+.gallery img {
+    width: 300px;
+    height: 300px;
+}
+
+/*This is the part that links to other pages*/
+
+.showcase a {
+    text-shadow: 0px 1px 5px #7f5200;
+}
+
+.showcase a:hover{
+    text-shadow: 0px 0px 10px #e2252d;
+}
