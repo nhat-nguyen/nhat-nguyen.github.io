@@ -1,5 +1,5 @@
 .full {
-    background: url("../assets/backgrounds/background_4.jpg") no-repeat center center fixed; 
+    background: url("../assets/backgrounds/background_6.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -11,7 +11,7 @@
 }
 
 .navbar .container .navbar-header a:hover{
-    text-shadow: 0px 0px 10px black;
+    text-shadow: 0px 0px 10px red;
 }
 
 .navbar .container .navbar-collapse a:link{
@@ -19,15 +19,15 @@
 }
 
 .navbar .container .navbar-collapse a:hover{
-    text-shadow: 0px 0px 10px black;
+    text-shadow: 0px 0px 10px red;
 }
 
 .header h1 {
-    text-shadow: 0px 0px 5px #008080;
+    text-shadow: 0px 0px 5px black;
 }
 
 .header p {
-    text-shadow: 0px 0px 5px #008080;
+    text-shadow: 0px 0px 5px black;
 }
 
 .photos {
@@ -36,7 +36,7 @@
 
 .photos p {
     color: white;
-    text-shadow: 0px 0px 5px #008080;
+    text-shadow: 0px 0px 3px black;
     text-align: center;
 }
 
@@ -58,12 +58,12 @@
 
 .photos a {
     color: white;
-    text-shadow: 0px 0px 15px black;
+    text-shadow: 0px 0px 5px #3f1812;
 }
 
 .photos a:hover {
     text-decoration: none;
-    text-shadow: 0px 0px 15px black;
+    text-shadow: 0px 0px 10px #3f1812;
 
 }
 
@@ -74,9 +74,9 @@
     top: 50px;
 }
 .showcase a {
-    text-shadow: 0px 1px 5px green;
+    text-shadow: 0px 1px 5px #3f1812;
 }
 
 .showcase a:hover{
-    text-shadow: 0px 0px 10px green;
+    text-shadow: 0px 0px 10px #3f1812;
 }
