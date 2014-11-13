@@ -1,5 +1,7 @@
 @media only screen and (min-width: 760px) {
-    .header p {padding-left: 210px !important ; padding-right: 210px !important;}
+    .header p {
+    	padding-left: 210px !important ; padding-right: 210px !important;
+    }
 }
 
 body {
