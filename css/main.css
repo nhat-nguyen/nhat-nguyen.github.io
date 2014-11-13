@@ -18,13 +18,13 @@ body {
 }
 
 .navbar .container .navbar-header a{
-    text-shadow: 0px 0px 5px #57a6ca;
+	text-shadow: 0px 0px 5px #57a6ca;
 	font-size: 20px;
 }
 
 .navbar .container .navbar-header a:hover{
-    text-shadow: 0px 0px 10px #006699;
-    color: white;
+	text-shadow: 0px 0px 10px #006699;
+	color: white;
 }
 
 .navbar .container .navbar-header img {
@@ -47,12 +47,12 @@ body {
 }
 
 .navbar .container .navbar-collapse a:link{
-    text-shadow: 0px 0px 5px #57a6ca;
-    color: white;
+	text-shadow: 0px 0px 5px #57a6ca;
+	color: white;
 }
 .navbar .container .navbar-collapse a:hover{
-    text-shadow: 0px 0px 10px #006699;
-    color: white;
+	text-shadow: 0px 0px 10px #006699;
+	color: white;
 }
 
 .full {
@@ -75,38 +75,38 @@ body {
 }
 
 .header p {
-    font-size: 20px;
-    text-align: center;
-    font-weight: lighter;
-    text-shadow: 0px 0px 10px #006699;
+	font-size: 20px;
+	text-align: center;
+	font-weight: lighter;
+	text-shadow: 0px 0px 10px #006699;
 }
 
 .showcase {
-    padding-top: 50px;
+	padding-top: 50px;
 }
 
 .showcase a {
-    color: white;
-    text-shadow: 0px 1px 5px #57a6ca;
+	color: white;
+	text-shadow: 0px 1px 5px #57a6ca;
 }
 
 .showcase a:hover{
-    color: white;
-    text-shadow: 0px 0px 10px #006699;
-    text-decoration: none;
+	color: white;
+	text-shadow: 0px 0px 10px #006699;
+	text-decoration: none;
 }
 
 .showcase ul {
-    color: transparent;
-    text-align: center;
+	color: transparent;
+	text-align: center;
 }
 
 .showcase li {
-    padding: 20px;
-    display: inline;
+	padding: 20px;
+	display: inline;
 }
 
 .showcase .container img {
-    width: 25px;
-    padding-right: 5px;
+	width: 25px;
+	padding-right: 5px;
 }
