@@ -70,8 +70,7 @@
 /*This is the part that links to other pages*/
 
 .showcase {
-    position: relative;
-    top: 50px;
+    bottom: 0;
 }
 .showcase a {
     text-shadow: 0px 1px 5px #3f1812;

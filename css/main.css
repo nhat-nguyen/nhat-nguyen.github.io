@@ -11,17 +11,13 @@ html, body {
 }
 
 body {
-	/*margin-top: 40px;*/
-	/*margin-bottom: 50px;*/
 	background: none;
 	font-weight: 300;
 }
 
 .navbar {
-	/*position: relative;*/
 	background: transparent;
 	border: transparent;
-	/*top: -40px;*/
 }
 
 .navbar .container .navbar-header a{
@@ -89,7 +85,7 @@ body {
 }
 
 .showcase {
-	padding-top: 50px;
+	padding-top: 10px;
 }
 
 .showcase a {
@@ -119,6 +115,9 @@ body {
 	padding-right: 5px;
 }
 
-.gallery a {
-	/*padding-top: px;*/
+.footer {
+	background: rgba(0, 0, 0, 0.2);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
