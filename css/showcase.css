@@ -1,5 +1,9 @@
 .full {
     background: url("../assets/backgrounds/background_2.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .header h1 {
@@ -60,8 +64,4 @@
 
 .showcase a:hover{
     text-shadow: 0px 0px 10px #e2252d;
-}
-
-.footer {
-    background: rgba(0, 0, 0, 0.5);
 }
