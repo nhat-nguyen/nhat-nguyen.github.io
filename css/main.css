@@ -4,18 +4,24 @@
     }
 }
 
+html, body {
+	height:100%;
+	margin:0;
+	padding:0;
+}
+
 body {
-	margin-top: 40px;
-	margin-bottom: 50px;
+	/*margin-top: 40px;*/
+	/*margin-bottom: 50px;*/
 	background: none;
 	font-weight: 300;
 }
 
 .navbar {
-	position: relative;
+	/*position: relative;*/
 	background: transparent;
 	border: transparent;
-	top: -40px;
+	/*top: -40px;*/
 }
 
 .navbar .container .navbar-header a{
@@ -109,5 +115,10 @@ body {
 
 .showcase .container img {
 	width: 25px;
+	height: auto;
 	padding-right: 5px;
+}
+
+.gallery a {
+	/*padding-top: px;*/
 }

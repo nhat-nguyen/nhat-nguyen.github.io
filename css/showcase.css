@@ -1,14 +1,5 @@
 .full {
     background: url("../assets/backgrounds/background_2.jpg") no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-.header {
-    position: relative;
-    top: -50px;
 }
 
 .header h1 {
@@ -55,8 +46,6 @@
 .gallery h5 {
     font-weight: lighter;
 }
-
-
 
 .gallery img {
     width: 300px;
